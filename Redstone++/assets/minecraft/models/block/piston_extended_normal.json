@@ -1,0 +1,9 @@
+{
+    "__comment": "Modifications by Quazi",
+    "parent": "block/piston_extended",
+    "textures": {
+        "bottom": "block/piston_bottom_ext",
+        "side": "block/piston_side_ext",
+        "inside": "block/piston_inner"
+    }
+}

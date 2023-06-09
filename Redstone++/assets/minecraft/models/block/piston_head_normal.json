@@ -1,0 +1,8 @@
+{
+    "__comment": "Modifications by Quazi",
+    "parent": "block/piston_head",
+    "textures": {
+        "side": "block/piston_side",
+        "platform": "block/piston_top"
+    }
+}
