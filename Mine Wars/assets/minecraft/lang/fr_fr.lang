@@ -1,0 +1,27 @@
+language.name=Français
+language.region=Coruscent
+language.code=fr_Co
+
+
+item.bow.name=Blaster
+item.arrow.name=Munitions
+item.swordIron.name=Sabre Laser Bleu
+item.swordWood.name=Epée
+item.swordStone.name=Sabre Laser Vert
+item.swordDiamond.name=Sabre Laser Violet
+item.bowl.name=Verre
+item.swordGold.name=Sabre Laser Rouge
+item.helmetIron.name=Casque de Clone
+item.chestplateIron.name=Plastron de Clone
+item.leggingsIron.name=Jambières de Clone
+item.bootsIron.name=Bottes de Clone
+item.milk.name=Lait de Bantha
+item.skull.skeleton.name=Casque de Stormtrooper
+item.elytra.name=Jet-Pack
+
+entity.Skeleton.name=Droïde
+entity.Ghast.name=Droïde Vautour
+entity.Husk.name=Tusken
+entity.PigZombie.name=Seigneur Sith
+entity.Cow.name=Bantha
+entity.Chicken.name=Droïde Souris
