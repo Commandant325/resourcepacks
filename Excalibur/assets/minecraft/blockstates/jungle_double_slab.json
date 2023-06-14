@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "normal": [
-			{ "model": "planks/jungle/doubleslab" }
-		]
-    }
+"variants": {
+"normal": [
+{"model": "planks/jungle/doubleslab"}
+]
+}
 }

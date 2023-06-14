@@ -1,7 +1,7 @@
 {
-    "variants": {
-        "normal": [
-			{ "model": "sandstone/sandstone/doubleslab" }
-		]
-    }
+"variants": {
+"normal": [
+{"model": "sandstone/sandstone/doubleslab"}
+]
+}
 }

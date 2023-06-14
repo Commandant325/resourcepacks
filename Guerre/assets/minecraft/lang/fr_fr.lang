@@ -2,11 +2,8 @@
 language.name=Français
 language.region=Royaume de France
 language.code=fr_fr
-
-
 entity.PigZombie.name=Sanglier zombie
 entity.Pig.name=Sanglier
-
 item.porkchopRaw.name=Sanglier cru
 item.porkchopCooked.name=Côtelettes de sanglier
 item.banner.skull.black=Lion de sable
@@ -82,7 +79,6 @@ item.bow.name=Carabine
 item.arrow.name=Munition
 item.spectral_arrow.name=Munition rougeoyante
 item.tipped_arrow.name=Munition à pointe
-
 tipped_arrow.effect.empty=Munition à pointe infaisable
 tipped_arrow.effect.water=Munition à pointe
 tipped_arrow.effect.mundane=Munition à pointe
@@ -104,12 +100,10 @@ tipped_arrow.effect.strength=Munition de He-roid
 tipped_arrow.effect.weakness=Munition de faiblaisse
 tipped_arrow.effect.levitation=Munition anti-gravité
 tipped_arrow.effect.luck=Munition de chance
-
 enchantment.arrowDamage=:(BALLES.SURCHARGEES):
 enchantment.arrowFire=:(BALLES.INCENDIAIRES):
 enchantment.arrowKnockback=:(FRAPE):
 enchantment.arrowInfinite=:(BALLES.INFINIES):
-
 tile.stoneSlab.netherBrick.name=Dalle de brique de l'Enfer
 tile.hellrock.name=Roche de l'Enfer
 tile.hellsand.name=sable de l'Enfer
@@ -120,5 +114,4 @@ tile.netherStalk.name=Verrue de l'Enfer
 tile.netherWartBlock.name=Bloc de Verrues de l'Enfer
 tile.redNetherBrick.name=Brique rouge de l'Enfer
 tile.netherquartz.name=Quartz
-
 achievement.portal.desc=Construit un portail vers l'Enfer

@@ -1,5 +1,5 @@
 {
-    "variants": {
-        "normal": { "model": "silverfish/stone" }
-    }
+"variants": {
+"normal": {"model": "silverfish/stone"}
+}
 }

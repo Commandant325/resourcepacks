@@ -1,6 +1,6 @@
 {
-	"parent": "block/sapling",
-	"textures": {
-		"sapling": "blocks/sapling_jungle"
-			}
+"parent": "block/sapling",
+"textures": {
+"sapling": "blocks/sapling_jungle"
+}
 }

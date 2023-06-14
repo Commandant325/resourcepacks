@@ -1,6 +1,6 @@
 {
-    "parent": "block/pressure_plate_up",
-    "textures": {
-        "texture": "blocks/plate_wood"
-    }
+"parent": "block/pressure_plate_up",
+"textures": {
+"texture": "blocks/plate_wood"
+}
 }

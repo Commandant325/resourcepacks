@@ -1,8 +1,6 @@
 language.name=Français
 language.region=Coruscent
 language.code=fr_Co
-
-
 item.bow.name=Blaster
 item.arrow.name=Munitions
 item.swordIron.name=Sabre Laser Bleu
@@ -18,7 +16,6 @@ item.bootsIron.name=Bottes de Clone
 item.milk.name=Lait de Bantha
 item.skull.skeleton.name=Casque de Stormtrooper
 item.elytra.name=Jet-Pack
-
 entity.Skeleton.name=Droïde
 entity.Ghast.name=Droïde Vautour
 entity.Husk.name=Tusken

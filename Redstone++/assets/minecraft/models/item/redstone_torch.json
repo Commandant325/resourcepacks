@@ -1,59 +1,59 @@
 {
-	"credit": "Made with Blockbench",
-	"ambientocclusion": false,
-	"textures": {
-		"particle": "blocks/redstone_torch_on"
-	},
-	"elements": [
-		{
-			"name": "Torch",
-			"from": [7, 0, 7],
-			"to": [9, 10, 9],
-			"shade": false,
-			"faces": {
-				"north": {"uv": [7, 6, 9, 16], "texture": "#particle"},
-				"east": {"uv": [7, 6, 9, 16], "texture": "#particle"},
-				"south": {"uv": [7, 6, 9, 16], "texture": "#particle"},
-				"west": {"uv": [7, 6, 9, 16], "texture": "#particle"},
-				"up": {"uv": [7, 6, 9, 8], "texture": "#particle"},
-				"down": {"uv": [7, 14, 9, 16], "texture": "#particle"}
-			}
-		},
-		{
-			"name": "Wick",
-			"from": [8, 7, 7.5],
-			"to": [8, 8, 8.5],
-			"shade": false,
-			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
-			"faces": {
-				"east": {"uv": [14, 10, 15, 11], "texture": "#missing"},
-				"west": {"uv": [14, 10, 15, 11], "texture": "#missing"},
-				"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
-			}
-		}
-	],
-	"display": {
-		"thirdperson_righthand": {
-			"rotation": [53, 0, 0],
-			"translation": [0, 3, 3],
-			"scale": [0.75, 0.75, 0.75]
-		},
-		"thirdperson_lefthand": {
-			"rotation": [53, 0, 0],
-			"translation": [0, 3, 3],
-			"scale": [0.75, 0.75, 0.75]
-		},
-		"firstperson_righthand": {
-			"translation": [1, 5.5, 0],
-			"scale": [0.7, 0.7, 0.7]
-		},
-		"firstperson_lefthand": {
-			"translation": [1, 5.5, 0],
-			"scale": [0.7, 0.7, 0.7]
-		},
-		"ground": {
-			"translation": [0, 3, 0],
-			"scale": [0.7, 0.7, 0.7]
-		}
-	}
+"credit": "Made with Blockbench",
+"ambientocclusion": false,
+"textures": {
+"particle": "blocks/redstone_torch_on"
+},
+"elements": [
+{
+"name": "Torch",
+"from": [7, 0, 7],
+"to": [9, 10, 9],
+"shade": false,
+"faces": {
+"north": {"uv": [7, 6, 9, 16], "texture": "#particle"},
+"east": {"uv": [7, 6, 9, 16], "texture": "#particle"},
+"south": {"uv": [7, 6, 9, 16], "texture": "#particle"},
+"west": {"uv": [7, 6, 9, 16], "texture": "#particle"},
+"up": {"uv": [7, 6, 9, 8], "texture": "#particle"},
+"down": {"uv": [7, 14, 9, 16], "texture": "#particle"}
+}
+},
+{
+"name": "Wick",
+"from": [8, 7, 7.5],
+"to": [8, 8, 8.5],
+"shade": false,
+"rotation": {"angle": 45, "axis": "y", "origin": [8, 5, 8]},
+"faces": {
+"east": {"uv": [14, 10, 15, 11], "texture": "#missing"},
+"west": {"uv": [14, 10, 15, 11], "texture": "#missing"},
+"down": {"uv": [0, 0, 0, 0], "texture": "#missing"}
+}
+}
+],
+"display": {
+"thirdperson_righthand": {
+"rotation": [53, 0, 0],
+"translation": [0, 3, 3],
+"scale": [0.75, 0.75, 0.75]
+},
+"thirdperson_lefthand": {
+"rotation": [53, 0, 0],
+"translation": [0, 3, 3],
+"scale": [0.75, 0.75, 0.75]
+},
+"firstperson_righthand": {
+"translation": [1, 5.5, 0],
+"scale": [0.7, 0.7, 0.7]
+},
+"firstperson_lefthand": {
+"translation": [1, 5.5, 0],
+"scale": [0.7, 0.7, 0.7]
+},
+"ground": {
+"translation": [0, 3, 0],
+"scale": [0.7, 0.7, 0.7]
+}
+}
 }
