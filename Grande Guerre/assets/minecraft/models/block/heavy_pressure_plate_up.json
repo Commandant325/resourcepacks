@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/pressure_plate_up",
+	"textures": {
+		"texture": "blocks/3dmodel/mine"
+	},
+	"elements": [
+		{
+			"from": [2, 0, 2],
+			"to": [14, 2.5, 14],
+			"faces": {
+				"north": {"uv": [0, 7, 8, 8], "texture": "#texture"},
+				"east": {"uv": [0, 7, 8, 8], "texture": "#texture"},
+				"south": {"uv": [0, 7, 8, 8], "texture": "#texture"},
+				"west": {"uv": [0, 7, 8, 8], "texture": "#texture"},
+				"up": {"uv": [0, 0, 8, 8], "texture": "#texture"},
+				"down": {"uv": [0.5, 5.5, 2.5, 7.5], "texture": "#texture"}
+			}
+		}
+	]
+}

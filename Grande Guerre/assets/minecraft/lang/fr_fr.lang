@@ -121,6 +121,9 @@ commands.whitelist.list=Il y a %s soldat(s) (sur %s connu(s)) dans la liste blan
 commands.whitelist.remove.usage=/whitelist remove <soldat>
 commands.xp.failure.widthdrawXp=Impossible de donner des points d'expérience négatifs au soldat
 commands.xp.usage=/xp <quantité> [soldat] OU /xp <quantité>L [soldat]
+
+container.dispenser=Mitrailleuse
+
 death.attack.arrow=%1$s s'est fait tirer dessus par (un(e)) %2$s
 death.attack.arrow.item=%1$s s'est fait tirer dessus par (un) %2$s avec un(e) %3$s
 
@@ -135,7 +138,16 @@ item.arrow.name=Munition
 item.bow.name=Carabine
 item.spectral_arrow.name=Munition spectrale
 item.tipped_arrow.name=Munition à effet
-item.splash_potion.name=Grenade
+item.bowl.name=Conserve vide
+item.mushroomStew.name=Conserve de champignons
+item.appleGold.name=Trousse de soins
+item.beefCooked.name=Conserve de boeuf cuit
+item.beefRaw.name=Conserve de boeuf cru
+item.chickenCooked.name=Conserve de poulet rôti
+item.chickenRaw.name=Conserve de poulet cru
+item.carrotGolden.name=Conserve de carotte succulente
+tile.carrots.name=Conserve de carottes
+item.rabbitStew.name=Conserve de ragoût de lapin
 
 key.categories.multiplayer=Multi-soldat
 key.playerlist=Afficher la liste des soldats
@@ -158,6 +170,7 @@ spectatorMenu.teleport.prompt=Sélectionnez un soldat vers lequel se téléporte
 
 stat.joinMultiplayer=Parties multi-soldats rejointes
 stat.playerKills=Soldats tués
+stat.dispenserInspected=Mitrailleuses inspectées
 
 subtitles.entity.arrow.hit=Munition plantée
 subtitles.entity.arrow.hit_player=Joueur touché
@@ -166,6 +179,13 @@ subtitles.entity.arrow.hit_player=Soldat touché
 subtitles.entity.player.death=Soldat qui meurt
 subtitles.entity.player.hurt=Soldat blessé
 subtitles.item.chorus_fruit.teleport=Téléportation d'un soldat
+subtitles.block.dispenser.dispense=Mitrailleuse qui tire
+subtitles.block.dispenser.fail=Mitrailleuse qui échoue
+
+tile.dispenser.name=Mitrailleuse
+tile.web.name=Fil barbelé
+tile.pumpkin.name=Masque à gaz
+tile.thinStainedGlass.brown.name=Mur en briques
 
 tipped_arrow.effect.awkward=Munition spéciale
 tipped_arrow.effect.empty=Munition spéciale non fabricable

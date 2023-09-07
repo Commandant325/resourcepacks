@@ -1,207 +1,155 @@
 {
-"credit": "Made with Blockbench, a free, modern block model editor by JannisX11",
-"parent": "block/block",
-"textures": {
-"0": "blocks/fence_dark_oak",
-"texture": "blocks/fence_gate_dark_oak",
-"particle": "blocks/fence_gate_dark_oak"
-},
-"elements": [
-{
-"name": "cube",
-"from": [0, 2, 6],
-"to": [3, 16, 10],
-"faces": {
-"north": {
-"uv": [13, 2, 16, 16],
-"texture": "#texture"
-},
-"east": {"uv": [6, 0, 10, 14], "texture": "#0"},
-"south": {
-"uv": [0, 2, 3, 16],
-"texture": "#texture"
-},
-"west": {
-"uv": [6, 0, 10, 14],
-"texture": "#0",
-"cullface": "west"
-},
-"up": {
-"uv": [13, 6, 16, 10],
-"texture": "#texture"
-},
-"down": {"uv": [0, 6, 3, 10], "texture": "#texture"}
-},
-"__comment": "Left-hand post"
-},
-{
-"name": "cube",
-"from": [13, 2, 6],
-"to": [16, 16, 10],
-"faces": {
-"north": {
-"uv": [0, 2, 3, 16],
-"texture": "#texture"
-},
-"east": {
-"uv": [6, 0, 10, 14],
-"texture": "#0",
-"cullface": "east"
-},
-"south": {
-"uv": [13, 2, 16, 16],
-"texture": "#texture"
-},
-"west": {"uv": [6, 0, 10, 14], "texture": "#0"},
-"up": {"uv": [0, 6, 3, 10], "texture": "#texture"},
-"down": {
-"uv": [13, 6, 16, 10],
-"texture": "#texture"
-}
-},
-"__comment": "Right-hand post"
-},
-{
-"name": "cube",
-"from": [6, 3, 7],
-"to": [8, 15, 9],
-"faces": {
-"north": {
-"uv": [6, 1, 8, 13],
-"texture": "#texture"
-},
-"east": {
-"uv": [7, 1, 9, 13],
-"texture": "#texture"
-},
-"south": {
-"uv": [6, 1, 8, 13],
-"texture": "#texture"
-},
-"west": {
-"uv": [7, 1, 9, 13],
-"texture": "#texture"
-},
-"up": {"uv": [6, 7, 8, 9], "texture": "#texture"},
-"down": {"uv": [6, 7, 8, 9], "texture": "#texture"}
-},
-"__comment": "Inner vertical post of left-hand gate door"
-},
-{
-"name": "cube",
-"from": [8, 3, 7],
-"to": [10, 15, 9],
-"faces": {
-"north": {
-"uv": [8, 1, 10, 13],
-"texture": "#texture"
-},
-"east": {
-"uv": [7, 1, 9, 13],
-"texture": "#texture"
-},
-"south": {
-"uv": [8, 1, 10, 13],
-"texture": "#texture"
-},
-"west": {
-"uv": [7, 1, 9, 13],
-"texture": "#texture"
-},
-"up": {"uv": [8, 7, 10, 9], "texture": "#texture"},
-"down": {"uv": [8, 7, 10, 9], "texture": "#texture"}
-},
-"__comment": "Inner vertical post of right-hand gate door"
-},
-{
-"name": "cube",
-"from": [2, 3, 7],
-"to": [6, 6, 9],
-"faces": {
-"north": {
-"uv": [10, 10, 14, 13],
-"texture": "#texture"
-},
-"south": {
-"uv": [2, 10, 6, 13],
-"texture": "#texture"
-},
-"up": {"uv": [2, 7, 6, 9], "texture": "#texture"},
-"down": {"uv": [2, 7, 6, 9], "texture": "#texture"}
-},
-"__comment": "Lower horizontal bar of left-hand gate door"
-},
-{
-"name": "cube",
-"from": [2, 12, 7],
-"to": [6, 15, 9],
-"faces": {
-"north": {
-"uv": [10, 1, 14, 4],
-"texture": "#texture"
-},
-"south": {
-"uv": [2, 1, 6, 4],
-"texture": "#texture"
-},
-"up": {"uv": [2, 7, 6, 9], "texture": "#texture"},
-"down": {"uv": [2, 7, 6, 9], "texture": "#texture"}
-},
-"__comment": "Upper horizontal bar of left-hand gate door"
-},
-{
-"name": "cube",
-"from": [10, 3, 7],
-"to": [14, 6, 9],
-"faces": {
-"north": {
-"uv": [2, 10, 6, 13],
-"texture": "#texture"
-},
-"south": {
-"uv": [10, 10, 14, 13],
-"texture": "#texture"
-},
-"up": {"uv": [10, 7, 14, 9], "texture": "#texture"},
-"down": {
-"uv": [10, 7, 14, 9],
-"texture": "#texture"
-}
-},
-"__comment": "Lower horizontal bar of right-hand gate door"
-},
-{
-"name": "cube",
-"from": [10, 12, 7],
-"to": [14, 15, 9],
-"faces": {
-"north": {
-"uv": [2, 1, 6, 4],
-"texture": "#texture"
-},
-"south": {
-"uv": [10, 1, 14, 4],
-"texture": "#texture"
-},
-"up": {"uv": [10, 7, 14, 9], "texture": "#texture"},
-"down": {
-"uv": [10, 7, 14, 9],
-"texture": "#texture"
-}
-},
-"__comment": "Upper horizontal bar of right-hand gate door"
-}
-],
-"display": {
-"gui": {
-"rotation": [30, 45, 0],
-"translation": [0, -1, 0],
-"scale": [0.8, 0.8, 0.8]
-},
-"head": {
-"rotation": [0, 0, 0],
-"translation": [0, -3, -6],
-"scale": [1, 1, 1]
-}
-}
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2_3": "blocks/3dmodel/barricate",
+		"particle": "blocks/3dmodel/barricate_top",
+		"2_7": "blocks/3dmodel/barricate_top"
+	},
+	"elements": [
+		{
+			"name": "sprike",
+			"from": [-1.60343, 20.46262, 6.53],
+			"to": [0.49657, 22.56262, 7.47],
+			"rotation": {"angle": -45, "axis": "z", "origin": [1.82242, 13.60366, 7]},
+			"faces": {
+				"north": {"uv": [6.125, 1.625, 4, 3.875], "rotation": 90, "texture": "#2_3"},
+				"east": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"},
+				"south": {"uv": [6.125, 1.625, 4, 3.875], "texture": "#2_3"},
+				"west": {"uv": [0, 0, 4.94, 7.1], "texture": "#2_7"},
+				"up": {"uv": [0, 0, 4.94, 7.1], "rotation": 90, "texture": "#2_7"},
+				"down": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [2.89657, 20.46262, 8.28],
+			"to": [4.99657, 22.56262, 9.22],
+			"rotation": {"angle": -45, "axis": "z", "origin": [6.32242, 13.60366, 8.75]},
+			"faces": {
+				"north": {"uv": [6.125, 1.625, 4, 3.875], "rotation": 90, "texture": "#2_3"},
+				"east": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"},
+				"south": {"uv": [6.125, 1.625, 4, 3.875], "texture": "#2_3"},
+				"west": {"uv": [0, 0, 4.94, 7.1], "texture": "#2_7"},
+				"up": {"uv": [0, 0, 4.94, 7.1], "rotation": 90, "texture": "#2_7"},
+				"down": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [8.75, 0.07612, 8.25],
+			"to": [11.75, 20.87612, 9.25],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.75, 8, 7.75]},
+			"faces": {
+				"north": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"east": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"south": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"west": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"up": {"uv": [1.875, 0, 0, 2.25], "texture": "#2_3"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [7.14657, 19.46262, 7.53],
+			"to": [9.24657, 21.56262, 8.47],
+			"rotation": {"angle": -45, "axis": "z", "origin": [10.57242, 12.60366, 8]},
+			"faces": {
+				"north": {"uv": [6.125, 1.625, 4, 3.875], "rotation": 90, "texture": "#2_3"},
+				"east": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"},
+				"south": {"uv": [6.125, 1.625, 4, 3.875], "texture": "#2_3"},
+				"west": {"uv": [0, 0, 4.94, 7.1], "texture": "#2_7"},
+				"up": {"uv": [0, 0, 4.94, 7.1], "rotation": 90, "texture": "#2_7"},
+				"down": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [13, 0.07612, 7.5],
+			"to": [16, 19.87612, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9]},
+			"faces": {
+				"north": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"east": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"south": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"west": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"up": {"uv": [1.875, 0, 0, 2.25], "texture": "#2_3"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [-5.85343, 19.46262, 7.53],
+			"to": [-3.75343, 21.56262, 8.47],
+			"rotation": {"angle": -45, "axis": "z", "origin": [-2.42758, 12.60366, 8]},
+			"faces": {
+				"north": {"uv": [6.125, 1.625, 4, 3.875], "rotation": 90, "texture": "#2_3"},
+				"east": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"},
+				"south": {"uv": [6.125, 1.625, 4, 3.875], "texture": "#2_3"},
+				"west": {"uv": [0, 0, 4.94, 7.1], "texture": "#2_7"},
+				"up": {"uv": [0, 0, 4.94, 7.1], "rotation": 90, "texture": "#2_7"},
+				"down": {"uv": [3.875, 0, 0, 15.25], "rotation": 90, "texture": "#2_7"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [0, 0.07612, 7.5],
+			"to": [3, 19.87612, 8.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 8, 9]},
+			"faces": {
+				"north": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"east": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"south": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"west": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"up": {"uv": [1.875, 0, 0, 2.25], "texture": "#2_3"}
+			}
+		},
+		{
+			"name": "sprike",
+			"from": [4.25, 0.07612, 6.5],
+			"to": [7.25, 20.87612, 7.5],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.25, 8, 6]},
+			"faces": {
+				"north": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"east": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"south": {"uv": [1.875, 4, 0, 16], "texture": "#2_3"},
+				"west": {"uv": [1.75, 4, 1.125, 16], "texture": "#2_3"},
+				"up": {"uv": [1.875, 0, 0, 2.25], "texture": "#2_3"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [75, 45, 0],
+			"translation": [0, 2.5, 0],
+			"scale": [0.375, 0.375, 0.375]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, 45, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"firstperson_lefthand": {
+			"rotation": [0, 225, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"ground": {
+			"translation": [0, 3, 0],
+			"scale": [0.25, 0.25, 0.25]
+		},
+		"gui": {
+			"rotation": [30, 225, 0],
+			"translation": [0, -2, 0],
+			"scale": [0.625, 0.625, 0.625]
+		},
+		"head": {
+			"translation": [0, -3, -6]
+		},
+		"fixed": {
+			"translation": [0, 0, -0.75],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
 }

@@ -1,0 +1,17 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "blocks/3dmodel/sandbag1",
+		"particle": "blocks/3dmodel/sandbag1"
+	},
+	"elements": [
+		{
+			"from": [7, 0, 7],
+			"to": [9, 16, 9],
+			"faces": {
+				"down": {"uv": [0, 2, 2, 4], "texture": "#0"}
+			}
+		}
+	]
+}

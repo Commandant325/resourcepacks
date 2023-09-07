@@ -1,105 +1,60 @@
 {
-"__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
-"textures": {
-"particle": "blocks/fence_gate_spruce",
-"0": "blocks/fence_gate_spruce"
-},
-"elements": [
-{
-"name": "Element",
-"from": [0.0, 2.0, 7.0],
-"to": [2.0, 15.0, 9.0],
-"faces": {
-"north": {"texture": "#0", "uv": [0.0, 0.0, 2.0, 13.0]},
-"east": {"texture": "#0", "uv": [7.0, 0.0, 9.0, 13.0]},
-"south": {"texture": "#0", "uv": [0.0, 0.0, 2.0, 13.0]},
-"west": {"texture": "#0", "uv": [7.0, 0.0, 9.0, 13.0], "cullface": "west"},
-"up": {"texture": "#0", "uv": [0.0, 7.0, 2.0, 9.0]},
-"down": {"texture": "#0", "uv": [0.0, 7.0, 2.0, 9.0]}
-}
-},
-{
-"name": "Element",
-"from": [14.0, 2.0, 7.0],
-"to": [16.0, 15.0, 9.0],
-"faces": {
-"north": {"texture": "#0", "uv": [14.0, 0.0, 16.0, 13.0]},
-"east": {"texture": "#0", "uv": [7.0, 0.0, 9.0, 13.0], "cullface": "east"},
-"south": {"texture": "#0", "uv": [14.0, 0.0, 16.0, 13.0]},
-"west": {"texture": "#0", "uv": [7.0, 0.0, 9.0, 13.0]},
-"up": {"texture": "#0", "uv": [14.0, 7.0, 16.0, 9.0]},
-"down": {"texture": "#0", "uv": [14.0, 7.0, 16.0, 9.0]}
-}
-},
-{
-"name": "Element",
-"from": [0.0, 2.0, 13.0],
-"to": [2.0, 15.0, 15.0],
-"faces": {
-"north": {"texture": "#0", "uv": [0.0, 1.0, 2.0, 14.0]},
-"east": {"texture": "#0", "uv": [14.0, 1.0, 16.0, 14.0]},
-"south": {"texture": "#0", "uv": [0.0, 1.0, 2.0, 14.0]},
-"west": {"texture": "#0", "uv": [14.0, 1.0, 16.0, 14.0]},
-"up": {"texture": "#0", "uv": [0.0, 13.0, 2.0, 15.0]},
-"down": {"texture": "#0", "uv": [0.0, 13.0, 2.0, 15.0]}
-}
-},
-{
-"name": "Element",
-"from": [14.0, 2.0, 13.0],
-"to": [16.0, 15.0, 15.0],
-"faces": {
-"north": {"texture": "#0", "uv": [14.0, 1.0, 16.0, 14.0]},
-"east": {"texture": "#0", "uv": [14.0, 1.0, 16.0, 14.0]},
-"south": {"texture": "#0", "uv": [14.0, 1.0, 16.0, 14.0]},
-"west": {"texture": "#0", "uv": [14.0, 1.0, 16.0, 14.0]},
-"up": {"texture": "#0", "uv": [14.0, 13.0, 16.0, 15.0]},
-"down": {"texture": "#0", "uv": [14.0, 13.0, 16.0, 15.0]}
-}
-},
-{
-"name": "Bottom2",
-"from": [0.0, 3.0, 9.0],
-"to": [2.0, 6.0, 13.0],
-"faces": {
-"east": {"texture": "#0", "uv": [10.0, 7.0, 14.0, 10.0]},
-"west": {"texture": "#0", "uv": [10.0, 7.0, 14.0, 10.0]},
-"up": {"texture": "#0", "uv": [0.0, 9.0, 2.0, 13.0]},
-"down": {"texture": "#0", "uv": [0.0, 9.0, 2.0, 13.0]}
-}
-},
-{
-"name": "Top2",
-"from": [0.0, 11.0, 9.0],
-"to": [2.0, 14.0, 13.0],
-"faces": {
-"east": {"texture": "#0", "uv": [10.0, 1.0, 14.0, 4.0]},
-"west": {"texture": "#0", "uv": [10.0, 1.0, 14.0, 4.0]},
-"up": {"texture": "#0", "uv": [0.0, 9.0, 2.0, 13.0]},
-"down": {"texture": "#0", "uv": [0.0, 9.0, 2.0, 13.0]}
-}
-},
-{
-"name": "Bottom1",
-"from": [14.0, 3.0, 9.0],
-"to": [16.0, 6.0, 13.0],
-"faces": {
-"east": {"texture": "#0", "uv": [10.0, 7.0, 14.0, 10.0]},
-"west": {"texture": "#0", "uv": [10.0, 7.0, 14.0, 10.0]},
-"up": {"texture": "#0", "uv": [14.0, 9.0, 16.0, 13.0]},
-"down": {"texture": "#0", "uv": [14.0, 9.0, 16.0, 13.0]}
-}
-},
-{
-"name": "Top1",
-"from": [14.0, 11.0, 9.0],
-"to": [16.0, 14.0, 13.0],
-"faces": {
-"east": {"texture": "#0", "uv": [10.0, 1.0, 14.0, 4.0]},
-"west": {"texture": "#0", "uv": [10.0, 1.0, 14.0, 4.0]},
-"up": {"texture": "#0", "uv": [14.0, 8.0, 16.0, 12.0]},
-"down": {"texture": "#0", "uv": [14.0, 9.0, 16.0, 13.0]}
-}
-}
-]
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"2_1": "blocks/3dmodel/plank_2",
+		"1_1": "blocks/stone_andesite_smooth"
+	},
+	"elements": [
+		{
+			"name": "stick",
+			"from": [14, 0, 7],
+			"to": [16, 16, 9],
+			"faces": {
+				"north": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"east": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"south": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"west": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"up": {"uv": [5, 1.5, 7, 3.5], "texture": "#2_1"},
+				"down": {"uv": [5, 1.5, 7, 3.5], "texture": "#2_1"}
+			}
+		},
+		{
+			"name": "stick",
+			"from": [0, 0, 7],
+			"to": [2, 16, 9],
+			"faces": {
+				"north": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"east": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"south": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"west": {"uv": [1, 4, 3, 16], "texture": "#2_1"},
+				"up": {"uv": [5, 1.5, 7, 3.5], "texture": "#2_1"},
+				"down": {"uv": [5, 1.5, 7, 3.5], "texture": "#2_1"}
+			}
+		},
+		{
+			"name": "wire",
+			"from": [3.5, -0.875, 7.5],
+			"to": [4.5, 10.875, 8.5],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [4, 5, 8]},
+			"faces": {
+				"north": {"uv": [2.5, 1, 3.498, 12.75], "texture": "#1_1"},
+				"east": {"uv": [2.5, 1, 3.498, 12.75], "texture": "#1_1"},
+				"south": {"uv": [2.5, 1, 3.498, 12.75], "texture": "#1_1"},
+				"west": {"uv": [2.5, 1, 3.498, 12.75], "texture": "#1_1"},
+				"up": {"uv": [0, 0, 1, 1], "texture": "#1_1"},
+				"down": {"uv": [0, 0, 1, 1], "texture": "#1_1"}
+			}
+		}
+	],
+	"display": {
+		"gui": {
+			"rotation": [30, 45, 0],
+			"translation": [0, -1, 0],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"head": {
+			"translation": [0, -3, -6]
+		}
+	}
 }
