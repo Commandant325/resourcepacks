@@ -123,9 +123,7 @@ commands.xp.failure.widthdrawXp=Impossible de donner des points d'expérience n�
 commands.xp.usage=/xp <quantité> [soldat] OU /xp <quantité>L [soldat]
 
 container.dispenser=Mitrailleuse
-
-death.attack.arrow=%1$s s'est fait tirer dessus par (un(e)) %2$s
-death.attack.arrow.item=%1$s s'est fait tirer dessus par (un) %2$s avec un(e) %3$s
+container.dropper=Caisse
 
 enchantment.arrowDamage=Puissance
 enchantment.arrowFire=Flamme
@@ -133,6 +131,7 @@ enchantment.arrowInfinite=Infinité
 enchantment.arrowKnockback=Frappe
 
 entity.Arrow.name=Munition
+entity.Silverfish.name=Rat
 
 item.arrow.name=Munition
 item.bow.name=Carabine
@@ -148,6 +147,7 @@ item.chickenRaw.name=Conserve de poulet cru
 item.carrotGolden.name=Conserve de carotte succulente
 tile.carrots.name=Conserve de carottes
 item.rabbitStew.name=Conserve de ragoût de lapin
+item.swordStone.name=Dague
 
 key.categories.multiplayer=Multi-soldat
 key.playerlist=Afficher la liste des soldats
@@ -171,6 +171,7 @@ spectatorMenu.teleport.prompt=Sélectionnez un soldat vers lequel se téléporte
 stat.joinMultiplayer=Parties multi-soldats rejointes
 stat.playerKills=Soldats tués
 stat.dispenserInspected=Mitrailleuses inspectées
+stat.dropperInspected=Caisses inspectées
 
 subtitles.entity.arrow.hit=Munition plantée
 subtitles.entity.arrow.hit_player=Joueur touché
@@ -181,11 +182,20 @@ subtitles.entity.player.hurt=Soldat blessé
 subtitles.item.chorus_fruit.teleport=Téléportation d'un soldat
 subtitles.block.dispenser.dispense=Mitrailleuse qui tire
 subtitles.block.dispenser.fail=Mitrailleuse qui échoue
+subtitles.entity.parrot.imitate.silverfish=Perroquet qui imite le rat
+subtitles.entity.silverfish.ambient=Sifflement de rat
+subtitles.entity.silverfish.death=Rat qui meurt
+subtitles.entity.silverfish.hurt=Rat blessé
 
 tile.dispenser.name=Mitrailleuse
 tile.web.name=Fil barbelé
 tile.pumpkin.name=Masque à gaz
 tile.thinStainedGlass.brown.name=Mur en briques
+tile.darkOakFence.name=Barricade
+tile.darkOakFenceGate.name=Portillon de barricade
+tile.dropper.name=Caisse
+tile.spruceFence.name=Barrière en barbelé
+tile.spruceFenceGate.name=Portillon en barbelé
 
 tipped_arrow.effect.awkward=Munition spéciale
 tipped_arrow.effect.empty=Munition spéciale non fabricable
