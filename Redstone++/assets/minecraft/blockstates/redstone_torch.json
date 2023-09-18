@@ -1,9 +1,0 @@
-{
-"variants": {
-"facing=up": [{"model": "lit_redstone_torch"}],
-"facing=east": {"model": "lit_redstone_torch_wall"},
-"facing=south": {"model": "lit_redstone_torch_wall"},
-"facing=west": {"model": "lit_redstone_torch_wall"},
-"facing=north": {"model": "lit_redstone_torch_wall"}
-}
-}

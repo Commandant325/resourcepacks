@@ -2,9 +2,9 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"2_3": "blocks/3dmodel/barricate",
-		"particle": "blocks/3dmodel/barricate_top",
-		"2_7": "blocks/3dmodel/barricate_top"
+		"2_3": "json/barricate",
+		"particle": "json/barricate_top",
+		"2_7": "json/barricate_top"
 	},
 	"elements": [
 		{

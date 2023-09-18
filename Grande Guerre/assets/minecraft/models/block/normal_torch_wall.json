@@ -4,8 +4,8 @@
 	"textures": {
 		"5": "blocks/furnace_top",
 		"1_1": "blocks/stone_slab_top",
-		"1_3": "blocks/3dmodel/beacon",
-		"particle": "blocks/3dmodel/beacon"
+		"particle": "json/beacon",
+		"1_3": "json/beacon"
 	},
 	"elements": [
 		{
@@ -81,10 +81,14 @@
 	"groups": [
 		{
 			"name": "normal_torch_wall",
+			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [0, 1]
 		},
 		{
 			"name": "normal_torch",
+			"origin": [8, 8, 8],
+			"color": 0,
 			"children": [2, 3, 4, 5]
 		}
 	]

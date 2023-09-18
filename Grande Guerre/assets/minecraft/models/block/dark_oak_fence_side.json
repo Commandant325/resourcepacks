@@ -1,10 +1,10 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"3": "blocks/3dmodel/barricate",
-		"5": "blocks/3dmodel/dirt_remove2",
-		"7": "blocks/3dmodel/barricate_top",
-		"8": "blocks/3dmodel/woodx64_1"
+		"3": "json/barricate",
+		"5": "json/dirt_remove2",
+		"7": "json/barricate_top",
+		"8": "json/woodx64_1"
 	},
 	"elements": [
 		{

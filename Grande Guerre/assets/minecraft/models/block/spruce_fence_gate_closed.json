@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"1": "blocks/3dmodel/plank_2",
+		"1": "json/plank_2",
 		"1_1": "blocks/stone_andesite_smooth"
 	},
 	"elements": [

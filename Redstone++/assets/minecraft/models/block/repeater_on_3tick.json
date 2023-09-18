@@ -2,6 +2,7 @@
 "credit": "Made with Blockbench",
 "ambientocclusion": false,
 "textures": {
+"particle": "blocks/repeater_on",
 "top": "blocks/repeater_on_3tick",
 "lit": "blocks/redstone_torch_on"
 },

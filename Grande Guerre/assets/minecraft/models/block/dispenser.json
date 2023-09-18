@@ -1,15 +1,15 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"0": "blocks/3dmodel/iron_3",
-		"3": "blocks/3dmodel/woodx32_1",
-		"4": "blocks/3dmodel/ammo_crate_side_2",
-		"5": "blocks/3dmodel/gun_details_1",
-		"6": "blocks/3dmodel/iron",
+		"0": "json/iron_3",
+		"3": "json/woodx32_1",
+		"4": "json/ammo_crate_side_2",
+		"5": "json/gun_details_1",
+		"6": "json/iron",
 		"7": "blocks/melon_side",
-		"8": "blocks/3dmodel/irong_green",
+		"8": "json/irong_green",
 		"10": "blocks/planks_oak",
-		"particle": "blocks/3dmodel/iron_3"
+		"particle": "json/iron_3"
 	},
 	"elements": [
 		{

@@ -1,12 +1,12 @@
 {
 	"credit": "Made with Blockbench",
 	"textures": {
-		"1": "blocks/3dmodel/ammo_crate_side_1",
+		"1": "json/ammo_crate_side_1",
 		"2": "blocks/noteblock",
-		"3": "blocks/3dmodel/ammo_crate_side_2",
-		"4": "blocks/3dmodel/ammo_crate_side_3",
-		"5": "blocks/3dmodel/ammo_crate_side_4",
-		"6": "blocks/3dmodel/ammo_crate_top",
+		"3": "json/ammo_crate_side_2",
+		"4": "json/ammo_crate_side_3",
+		"5": "json/ammo_crate_side_4",
+		"6": "json/ammo_crate_top",
 		"particle": "blocks/noteblock"
 	},
 	"elements": [

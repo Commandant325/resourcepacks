@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"texture_size": [32, 32],
 	"textures": {
-		"0": "blocks/3dmodel/plank_2",
-		"particle": "blocks/3dmodel/plank_2"
+		"0": "json/plank_2",
+		"particle": "json/plank_2"
 	},
 	"elements": [
 		{

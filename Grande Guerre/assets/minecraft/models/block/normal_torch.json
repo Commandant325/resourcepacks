@@ -3,9 +3,9 @@
 	"ambientocclusion": false,
 	"textures": {
 		"1": "blocks/stone_slab_top",
-		"3": "blocks/3dmodel/beacon",
+		"3": "json/beacon",
 		"5": "blocks/furnace_top",
-		"particle": "blocks/3dmodel/beacon"
+		"particle": "json/beacon"
 	},
 	"elements": [
 		{

@@ -2,8 +2,8 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"0": "blocks/3dmodel/sandbag1",
-		"particle": "blocks/3dmodel/sandbag1"
+		"0": "json/sandbag1",
+		"particle": "json/sandbag1"
 	},
 	"elements": [
 		{

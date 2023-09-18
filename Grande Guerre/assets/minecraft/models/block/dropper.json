@@ -3,7 +3,7 @@
 	"textures": {
 		"1": "blocks/dropper_front_vertical",
 		"2": "blocks/noteblock",
-		"3": "blocks/3dmodel/medic_crate_side",
+		"3": "json/medic_crate_side",
 		"particle": "blocks/dropper_front_horizontal"
 	},
 	"elements": [

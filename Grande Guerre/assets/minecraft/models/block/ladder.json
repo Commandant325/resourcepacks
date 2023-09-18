@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"ambientocclusion": false,
 	"textures": {
-		"texture": "blocks/3dmodel/ladder_1",
+		"texture": "json/ladder_1",
 		"particle": "blocks/ladder"
 	},
 	"elements": [

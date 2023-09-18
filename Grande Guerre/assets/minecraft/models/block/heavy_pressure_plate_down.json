@@ -2,7 +2,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/pressure_plate_up",
 	"textures": {
-		"texture": "blocks/3dmodel/mine"
+		"texture": "json/mine"
 	},
 	"elements": [
 		{
