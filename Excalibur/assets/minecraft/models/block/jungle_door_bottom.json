@@ -2,7 +2,8 @@
 "credit": "Made with Blockbench",
 "ambientocclusion": false,
 "textures": {
-"0": "blocks/door_jungle_lower"
+"0": "blocks/door_jungle_lower",
+"particle": "blocks/door_jungle_lower"
 },
 "elements": [
 {
