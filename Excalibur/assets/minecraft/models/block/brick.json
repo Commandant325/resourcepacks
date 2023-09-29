@@ -1,7 +1,8 @@
 {
-"parent": "block/cube_top",
-"textures": {
-"side": "blocks/brick",
-"top": "blocks/brick_top"
-}
+	"credit": "Made with Blockbench",
+	"parent": "block/cube_top",
+	"textures": {
+		"side": "blocks/brick",
+		"top": "blocks/brick_top"
+	}
 }

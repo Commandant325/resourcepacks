@@ -1,7 +1,8 @@
 {
-"parent": "block/leaves",
-"textures": {
-"middle": "blocks/leaves_birch",
-"tips": "blocks/leaves_birch_bl"
-}
+	"credit": "Made with Blockbench",
+	"parent": "block/leaves",
+	"textures": {
+		"middle": "blocks/leaves_birch",
+		"tips": "blocks/leaves_birch_bl"
+	}
 }
